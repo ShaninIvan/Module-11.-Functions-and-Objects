@@ -183,7 +183,7 @@ const personGenerator = {
         let month = dateArr[0];
         let day = this.randomIntNumber(dateArr[1], 1) ;
 
-        return day + ' ' + month + ' ' + year;
+        return ', ' + day + ' ' + month + ' ' + year;
     },
 
     randomProfession: function(){
