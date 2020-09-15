@@ -1,0 +1,19 @@
+.head{
+    font-size: 20px;
+    color: #0046c7;
+    font-weight: 700;
+}
+
+.card{
+    background-color: #aaaaaa;
+}
+
+.card-body{
+    background-color: #fdb03c;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.rotate{
+    transform: rotate3d(1, 0, 0, 180deg);
+}
